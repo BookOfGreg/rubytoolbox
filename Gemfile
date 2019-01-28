@@ -28,6 +28,8 @@ gem "uglifier", ">= 1.3.0"
 # Heroku ruby buildpack installs yarn only when webpacker gem is detected...
 gem "webpacker", require: false
 
+gem "addressable"
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
